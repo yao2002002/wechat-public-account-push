@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "wx6fafc94c2056b88c",
+  APP_ID: "",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "832de2ae1f367f9ae6358e896ba193eb",
+  APP_SECRET: "",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -20,7 +20,7 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [ohuG76erC_YZwkQ6ieIpsfej2NV4,ohuG76X7wEd-rhRGrlVLd8vAgxEk
+  USERS: [
     {
       // 想要发送的人的名字
       name: "许某娟",
